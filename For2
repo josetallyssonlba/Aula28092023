@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class For2{
+    public static void main(){
+        Scanner scanner = new Scanner(System.in);
+        int x; 
+        int y; 
+        System.out.println("Digite um valor: ");
+        x = scanner.nextInt();
+        System.out.println("Digite um valor: ");
+        y = scanner.nextInt();
+        for (int i = x; i >= y; i--)
+        System.out.println(i);
+        for (int i = x; i <= y; i++)
+        System.out.println(i);
+       
+       
+        
+        
+  }  
+}
